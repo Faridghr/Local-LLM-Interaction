@@ -16,7 +16,7 @@ Download Link: [Ollama for Windows](https://ollama.com/download/OllamaSetup.exe)
 Run the following command in your terminal:
 `curl -fsSL https://ollama.com/install.sh | sh`
 
-After installing Ollama, you can interact with it via the curl command:
+### After installing Ollama, you can interact with it via the curl command:
 
 - To run a model: `ollama run [Model-Name]`
 - Wait for the model to be pulled
@@ -27,23 +27,23 @@ For further instructions, visit the [Ollama GitHub page](https://github.com/olla
 ## Choosing Models
 We compare two different Ollama models: llama 3 and Gemma:2b.
 
-1. llama 3
+1. **llama 3**
 Description: An advanced language model with 8 billion parameters, offering robust performance and a wide range of capabilities in a compact size of 4.7 GB. Suitable for diverse natural language processing tasks.
 Curl Command: `ollama run llama3`
 
-2. Gemma:2b
+2. **Gemma:2b**
 Description: A versatile language model with 2 billion parameters and a size of 1.4 GB. Designed to deliver efficient and effective performance for various language-related applications while maintaining a smaller computational footprint.
 Curl Command: `ollama run gemma:2b`
 
 ## Evaluation Criteria
 To compare both models, we use the same prompts and evaluate their responses based on the following criteria:
 
-- Accuracy and Relevance: How correct and relevant are the responses to the given prompts?
-- Coherence and Fluency: How logical and smoothly flowing are the responses?
-- Creativity and Originality: How creative and original are the responses?
-- Consistency: How consistent are the responses over multiple similar queries?
-- Bias and Fairness: Are the responses free from inappropriate biases and ethically sound?
-- Robustness: How well does the model handle ambiguous, tricky, or adversarial inputs?
+- **Accuracy and Relevance:** How correct and relevant are the responses to the given prompts?
+- **Coherence and Fluency:** How logical and smoothly flowing are the responses?
+- **Creativity and Originality:** How creative and original are the responses?
+- **Consistency:** How consistent are the responses over multiple similar queries?
+- **Bias and Fairness:** Are the responses free from inappropriate biases and ethically sound?
+- **Robustness:** How well does the model handle ambiguous, tricky, or adversarial inputs?
 
 ## Compare Two Models
 We input each prompt into both llama 3 and Gemma:2b, capturing the full response from each model. Each response is evaluated using the criteria mentioned above, scores are assigned to quantify the evaluation, and the results are compared to determine the strengths and weaknesses of each model.
@@ -51,22 +51,22 @@ We input each prompt into both llama 3 and Gemma:2b, capturing the full response
 ## Diverse Set of Prompts
 For evaluation, we chose a wide range of prompts:
 
-1. General Knowledge Questions: "What are the primary causes of climate change?"
+1. **General Knowledge Questions:** "What are the primary causes of climate change?"
    - Ollama 3 provided a detailed and accurate list of primary causes of climate change, while Gemma:2b's response was less detailed and missed some key points.
    
-2. Conversational Prompts: "Tell me about your favorite book."
+2. **Conversational Prompts:** "Tell me about your favorite book."
    - Ollama 3 provided detailed book recommendations, showing an understanding of the request. Gemma:2b's response was too brief and didn't provide useful information.
    
-3. Creative Prompts: "Write a short story about a dragon and a knight."
+3. **Creative Prompts:** "Write a short story about a dragon and a knight."
    - Both models created imaginative stories, but Ollama 3's story was more detailed and engaging.
    
-4. Technical Questions: "Explain the concept of quantum entanglement."
+4. **Technical Questions:** "Explain the concept of quantum entanglement."
    - Ollama 3's response was clear and easy to understand, while Gemma:2b's was also clear but slightly less detailed.
    
-5. Ethical Dilemmas: "Is it ethical to use animals for scientific research? Why or why not?"
+5. **Ethical Dilemmas:** "Is it ethical to use animals for scientific research? Why or why not?"
    - Both models provided balanced views, but Ollama 3 offered more detailed arguments.
    
-6. Ambiguous or Tricky Prompts: "Can you explain the meaning of life?"
+6. **Ambiguous or Tricky Prompts:** "Can you explain the meaning of life?"
    - Both responses were clear and well-structured.
 
 Evaluation Table
