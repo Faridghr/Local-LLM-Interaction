@@ -3,6 +3,10 @@
 ## Objective
 The purpose of this project is to set up and interact with large language models (LLMs) directly on our local machine. Additionally, we compare two different LLM models to determine which one performs better. In this project, we use Ollama as the LLM framework and its different models.
 
+## Project Structure
+- **report/**: This directory contains the project [report](report), including documentation and all responses for the following prompts.
+- **video/**: Contains [video](video) presentation.
+
 ## Setting up LLMs
 We begin by setting up the LLMs on our local machines:
 
