@@ -1,4 +1,4 @@
-# Project Title: Evaluating and Comparing LLMs on a Local Machine
+# Evaluating and Comparing LLMs on a Local Machine
 
 ## Objective
 The purpose of this project is to set up and interact with large language models (LLMs) directly on our local machine. Additionally, we compare two different LLM models to determine which one performs better. In this project, we use Ollama as the LLM framework and its different models.
