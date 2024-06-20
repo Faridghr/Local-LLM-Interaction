@@ -78,7 +78,7 @@ For evaluation, we chose a wide range of prompts:
 6. **Ambiguous or Tricky Prompts:** "Can you explain the meaning of life?"
    - Both responses were clear and well-structured.
 
-Evaluation Table
+## Evaluation Table
 | Prompt                                    | Criterion          | llama 3 Score | Gemma:2b Score |
 |-------------------------------------------|--------------------|---------------|----------------|
 | What are the primary causes of climate change? | Accuracy           | 5             | 4              |
