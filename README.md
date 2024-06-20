@@ -10,15 +10,20 @@ The purpose of this project is to set up and interact with large language models
 ## Setting up LLMs
 We begin by setting up the LLMs on our local machines:
 
+### Installation Instructions:
 ### macOS
-Download Link: [Ollama for macOS](https://ollama.com/download/Ollama-darwin.zip)
+1.	Download the [Ollama installer for macOS](https://ollama.com/download/Ollama-darwin.zip).
+2.	Extract the downloaded ZIP file.
+3.	Open Terminal and navigate to the extracted folder.
+4.	Run the following command to install Ollama: ./install.sh
 
 ### Windows Preview
-Download Link: [Ollama for Windows](https://ollama.com/download/OllamaSetup.exe)
+1.	Download the [Ollama for Windows](https://ollama.com/download/OllamaSetup.exe) setup executable.
+2.	Run the downloaded executable file and follow the on-screen instructions to complete the installation.
 
 ### Linux
-Run the following command in your terminal:
-`curl -fsSL https://ollama.com/install.sh | sh`
+1.	Open a terminal window.
+2.	Run the following command to install Ollama: `curl -fsSL https://ollama.com/install.sh | sh`
 
 ### After installing Ollama, you can interact with it via the curl command:
 
