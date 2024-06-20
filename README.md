@@ -15,7 +15,7 @@ We begin by setting up the LLMs on our local machines:
 1.	Download the [Ollama installer for macOS](https://ollama.com/download/Ollama-darwin.zip).
 2.	Extract the downloaded ZIP file.
 3.	Open Terminal and navigate to the extracted folder.
-4.	Run the following command to install Ollama: ./install.sh
+4.	Run the following command to install Ollama: `./install.sh`
 
 ### Windows Preview
 1.	Download the [Ollama for Windows](https://ollama.com/download/OllamaSetup.exe) setup executable.
