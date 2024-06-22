@@ -7,12 +7,6 @@ The purpose of this project is to set up and interact with large language models
 - **report/**: This directory contains the project [report](report), including documentation and all responses for the following prompts.
 - **video/**: Contains [video](video) presentation.You can also watch the video on [YouTube](Link).
 
-## Video Demonstration
-<video width="320" height="240" controls>
-  <source src="video/presentation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ## Setting up LLMs
 We begin by setting up the LLMs on our local machines:
 
