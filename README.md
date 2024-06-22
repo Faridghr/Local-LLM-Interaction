@@ -5,7 +5,7 @@ The purpose of this project is to set up and interact with large language models
 
 ## Project Structure
 - **report/**: This directory contains the project [report](report), including documentation and all responses for the following prompts.
-- **video/**: Contains [video](video) presentation.You can also watch the video on [YouTube](Link).
+- **video/**: Contains [video](video) presentation.You can also watch the video on [YouTube](https://youtu.be/nIlesw53NhQ).
 
 ## Setting up LLMs
 We begin by setting up the LLMs on our local machines:
